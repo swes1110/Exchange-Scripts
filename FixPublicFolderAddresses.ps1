@@ -1,4 +1,10 @@
-﻿#Fix Public Folder E-Mail Addresses
+﻿<#
+ABFM Fix Public Folder Addresses
+Rev. 1.0 - November 4, 2014
+Created By: Shawn Reynolds
+#>
+
+#Fix Public Folder E-Mail Addresses
 #
 #Mail Disable Public Folders
 Disable-MailPublicFolder -Identity "\ABFM Support Center" -Confirm:$false -Server FMLEX-MBX02
